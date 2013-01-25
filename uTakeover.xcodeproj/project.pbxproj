@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2940B3C516B2E08C005D636A /* ukontroll-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2940B3C416B2E08C005D636A /* ukontroll-icon.png */; };
+		2940B3CA16B2E126005D636A /* ukontroll-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2940B3C916B2E126005D636A /* ukontroll-icon.icns */; };
+		2940B3CC16B2E12E005D636A /* ukontroll-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2940B3CB16B2E12E005D636A /* ukontroll-icon.icns */; };
+		29984ECE16AD72E9004DFE27 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29984ECD16AD72E9004DFE27 /* Cocoa.framework */; };
+		29984ED816AD72E9004DFE27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29984ED616AD72E9004DFE27 /* InfoPlist.strings */; };
+		29984EDA16AD72E9004DFE27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29984ED916AD72E9004DFE27 /* main.m */; };
+		29984EDE16AD72E9004DFE27 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 29984EDC16AD72E9004DFE27 /* Credits.rtf */; };
+		29984EE116AD72E9004DFE27 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29984EE016AD72E9004DFE27 /* AppDelegate.mm */; };
+		29984EE416AD72E9004DFE27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29984EE216AD72E9004DFE27 /* MainMenu.xib */; };
+		29984EF216AD7972004DFE27 /* MainView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29984EF016AD7972004DFE27 /* MainView.mm */; };
+		29984EF316AD7972004DFE27 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29984EF116AD7972004DFE27 /* MainView.xib */; };
+		29984EF516AD89BA004DFE27 /* utakeover-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984EF416AD89BA004DFE27 /* utakeover-bg.png */; };
+		29984F0016AD8EE3004DFE27 /* bindings-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984EFE16AD8EE3004DFE27 /* bindings-bg.png */; };
+		29984F0116AD8EE3004DFE27 /* settings-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984EFF16AD8EE3004DFE27 /* settings-bg.png */; };
+		29984F0316AD93A9004DFE27 /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984F0216AD93A9004DFE27 /* transparent.png */; };
+		29984F0716ADA2AD004DFE27 /* BindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29984F0516ADA2AB004DFE27 /* BindView.m */; };
+		29984F0816ADA2AD004DFE27 /* BindView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29984F0616ADA2AC004DFE27 /* BindView.xib */; };
+		29984F1716ADA70C004DFE27 /* utakeover-icon-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984F1616ADA70C004DFE27 /* utakeover-icon-18.png */; };
+		29984F1916AE9712004DFE27 /* player-select.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984F1816AE9711004DFE27 /* player-select.png */; };
+		29984F2316B06471004DFE27 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984F2216B06470004DFE27 /* line.png */; };
+		29984F2516B06CAB004DFE27 /* line-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984F2416B06CAB004DFE27 /* line-small.png */; };
+		29984F2816B12D04004DFE27 /* ButtonBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 29984F2716B12D03004DFE27 /* ButtonBind.m */; };
+		29984F2C16B29762004DFE27 /* utakeover-icon-18-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984F2B16B29762004DFE27 /* utakeover-icon-18-active.png */; };
+		29984F3016B2CB55004DFE27 /* getukontroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984F2D16B2CB53004DFE27 /* getukontroll.png */; };
+		29984F3116B2CB55004DFE27 /* quitutakeover.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984F2E16B2CB54004DFE27 /* quitutakeover.png */; };
+		29984F3216B2CB55004DFE27 /* syncukontroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984F2F16B2CB54004DFE27 /* syncukontroll.png */; };
+		29984F3416B2D011004DFE27 /* active-session.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984F3316B2D010004DFE27 /* active-session.png */; };
+		29984F3616B2D203004DFE27 /* sync.png in Resources */ = {isa = PBXBuildFile; fileRef = 29984F3516B2D203004DFE27 /* sync.png */; };
+		29984F3716B2DB38004DFE27 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29984F2916B1425F004DFE27 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2940B3C416B2E08C005D636A /* ukontroll-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ukontroll-icon.png"; sourceTree = "<group>"; };
+		2940B3C916B2E126005D636A /* ukontroll-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "ukontroll-icon.icns"; sourceTree = "<group>"; };
+		2940B3CB16B2E12E005D636A /* ukontroll-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "ukontroll-icon.icns"; sourceTree = "<group>"; };
+		29984EC916AD72E9004DFE27 /* uTakeover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uTakeover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29984ECD16AD72E9004DFE27 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		29984ED016AD72E9004DFE27 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		29984ED116AD72E9004DFE27 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29984ED216AD72E9004DFE27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29984ED516AD72E9004DFE27 /* uTakeover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "uTakeover-Info.plist"; sourceTree = "<group>"; };
+		29984ED716AD72E9004DFE27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29984ED916AD72E9004DFE27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29984EDB16AD72E9004DFE27 /* uTakeover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "uTakeover-Prefix.pch"; sourceTree = "<group>"; };
+		29984EDD16AD72E9004DFE27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		29984EDF16AD72E9004DFE27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29984EE016AD72E9004DFE27 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		29984EE316AD72E9004DFE27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29984EEF16AD7972004DFE27 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		29984EF016AD7972004DFE27 /* MainView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainView.mm; sourceTree = "<group>"; };
+		29984EF116AD7972004DFE27 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		29984EF416AD89BA004DFE27 /* utakeover-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utakeover-bg.png"; sourceTree = "<group>"; };
+		29984EFE16AD8EE3004DFE27 /* bindings-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bindings-bg.png"; sourceTree = "<group>"; };
+		29984EFF16AD8EE3004DFE27 /* settings-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-bg.png"; sourceTree = "<group>"; };
+		29984F0216AD93A9004DFE27 /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent.png; sourceTree = "<group>"; };
+		29984F0416ADA2AB004DFE27 /* BindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindView.h; sourceTree = "<group>"; };
+		29984F0516ADA2AB004DFE27 /* BindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindView.m; sourceTree = "<group>"; };
+		29984F0616ADA2AC004DFE27 /* BindView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BindView.xib; sourceTree = "<group>"; };
+		29984F1616ADA70C004DFE27 /* utakeover-icon-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utakeover-icon-18.png"; sourceTree = "<group>"; };
+		29984F1816AE9711004DFE27 /* player-select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-select.png"; sourceTree = "<group>"; };
+		29984F2216B06470004DFE27 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		29984F2416B06CAB004DFE27 /* line-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line-small.png"; sourceTree = "<group>"; };
+		29984F2616B12D03004DFE27 /* ButtonBind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonBind.h; sourceTree = "<group>"; };
+		29984F2716B12D03004DFE27 /* ButtonBind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonBind.m; sourceTree = "<group>"; };
+		29984F2916B1425F004DFE27 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		29984F2B16B29762004DFE27 /* utakeover-icon-18-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utakeover-icon-18-active.png"; sourceTree = "<group>"; };
+		29984F2D16B2CB53004DFE27 /* getukontroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = getukontroll.png; sourceTree = "<group>"; };
+		29984F2E16B2CB54004DFE27 /* quitutakeover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quitutakeover.png; sourceTree = "<group>"; };
+		29984F2F16B2CB54004DFE27 /* syncukontroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = syncukontroll.png; sourceTree = "<group>"; };
+		29984F3316B2D010004DFE27 /* active-session.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "active-session.png"; sourceTree = "<group>"; };
+		29984F3516B2D203004DFE27 /* sync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sync.png; sourceTree = "<group>"; };
+		29984F3816B2DB4B004DFE27 /* uTakeover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = uTakeover.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29984EC616AD72E9004DFE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29984F3716B2DB38004DFE27 /* Carbon.framework in Frameworks */,
+				29984ECE16AD72E9004DFE27 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29984EBE16AD72E9004DFE27 = {
+			isa = PBXGroup;
+			children = (
+				2940B3CB16B2E12E005D636A /* ukontroll-icon.icns */,
+				29984F2916B1425F004DFE27 /* Carbon.framework */,
+				29984ED316AD72E9004DFE27 /* uTakeover */,
+				29984ECC16AD72E9004DFE27 /* Frameworks */,
+				29984ECA16AD72E9004DFE27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29984ECA16AD72E9004DFE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29984EC916AD72E9004DFE27 /* uTakeover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29984ECC16AD72E9004DFE27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29984ECD16AD72E9004DFE27 /* Cocoa.framework */,
+				29984ECF16AD72E9004DFE27 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29984ECF16AD72E9004DFE27 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29984ED016AD72E9004DFE27 /* AppKit.framework */,
+				29984ED116AD72E9004DFE27 /* CoreData.framework */,
+				29984ED216AD72E9004DFE27 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		29984ED316AD72E9004DFE27 /* uTakeover */ = {
+			isa = PBXGroup;
+			children = (
+				29984F3816B2DB4B004DFE27 /* uTakeover.entitlements */,
+				29984EDF16AD72E9004DFE27 /* AppDelegate.h */,
+				29984EE016AD72E9004DFE27 /* AppDelegate.mm */,
+				29984EE216AD72E9004DFE27 /* MainMenu.xib */,
+				29984ED416AD72E9004DFE27 /* Supporting Files */,
+				29984EEF16AD7972004DFE27 /* MainView.h */,
+				29984EF016AD7972004DFE27 /* MainView.mm */,
+				29984EF116AD7972004DFE27 /* MainView.xib */,
+				29984F0416ADA2AB004DFE27 /* BindView.h */,
+				29984F0516ADA2AB004DFE27 /* BindView.m */,
+				29984F0616ADA2AC004DFE27 /* BindView.xib */,
+				29984F2616B12D03004DFE27 /* ButtonBind.h */,
+				29984F2716B12D03004DFE27 /* ButtonBind.m */,
+			);
+			path = uTakeover;
+			sourceTree = "<group>";
+		};
+		29984ED416AD72E9004DFE27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2940B3C916B2E126005D636A /* ukontroll-icon.icns */,
+				2940B3C416B2E08C005D636A /* ukontroll-icon.png */,
+				29984F3516B2D203004DFE27 /* sync.png */,
+				29984F3316B2D010004DFE27 /* active-session.png */,
+				29984F2D16B2CB53004DFE27 /* getukontroll.png */,
+				29984F2E16B2CB54004DFE27 /* quitutakeover.png */,
+				29984F2F16B2CB54004DFE27 /* syncukontroll.png */,
+				29984F2B16B29762004DFE27 /* utakeover-icon-18-active.png */,
+				29984F2416B06CAB004DFE27 /* line-small.png */,
+				29984F2216B06470004DFE27 /* line.png */,
+				29984F1816AE9711004DFE27 /* player-select.png */,
+				29984F1616ADA70C004DFE27 /* utakeover-icon-18.png */,
+				29984F0216AD93A9004DFE27 /* transparent.png */,
+				29984EFE16AD8EE3004DFE27 /* bindings-bg.png */,
+				29984EFF16AD8EE3004DFE27 /* settings-bg.png */,
+				29984EF416AD89BA004DFE27 /* utakeover-bg.png */,
+				29984ED516AD72E9004DFE27 /* uTakeover-Info.plist */,
+				29984ED616AD72E9004DFE27 /* InfoPlist.strings */,
+				29984ED916AD72E9004DFE27 /* main.m */,
+				29984EDB16AD72E9004DFE27 /* uTakeover-Prefix.pch */,
+				29984EDC16AD72E9004DFE27 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29984EC816AD72E9004DFE27 /* uTakeover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29984EE716AD72E9004DFE27 /* Build configuration list for PBXNativeTarget "uTakeover" */;
+			buildPhases = (
+				29984EC516AD72E9004DFE27 /* Sources */,
+				29984EC616AD72E9004DFE27 /* Frameworks */,
+				29984EC716AD72E9004DFE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uTakeover;
+			productName = uTakeover;
+			productReference = 29984EC916AD72E9004DFE27 /* uTakeover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29984EC016AD72E9004DFE27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Gordito AB";
+			};
+			buildConfigurationList = 29984EC316AD72E9004DFE27 /* Build configuration list for PBXProject "uTakeover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29984EBE16AD72E9004DFE27;
+			productRefGroup = 29984ECA16AD72E9004DFE27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29984EC816AD72E9004DFE27 /* uTakeover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29984EC716AD72E9004DFE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29984ED816AD72E9004DFE27 /* InfoPlist.strings in Resources */,
+				29984EDE16AD72E9004DFE27 /* Credits.rtf in Resources */,
+				29984EE416AD72E9004DFE27 /* MainMenu.xib in Resources */,
+				29984EF316AD7972004DFE27 /* MainView.xib in Resources */,
+				29984EF516AD89BA004DFE27 /* utakeover-bg.png in Resources */,
+				29984F0016AD8EE3004DFE27 /* bindings-bg.png in Resources */,
+				29984F0116AD8EE3004DFE27 /* settings-bg.png in Resources */,
+				29984F0316AD93A9004DFE27 /* transparent.png in Resources */,
+				29984F0816ADA2AD004DFE27 /* BindView.xib in Resources */,
+				29984F1716ADA70C004DFE27 /* utakeover-icon-18.png in Resources */,
+				29984F1916AE9712004DFE27 /* player-select.png in Resources */,
+				29984F2316B06471004DFE27 /* line.png in Resources */,
+				29984F2516B06CAB004DFE27 /* line-small.png in Resources */,
+				29984F2C16B29762004DFE27 /* utakeover-icon-18-active.png in Resources */,
+				29984F3016B2CB55004DFE27 /* getukontroll.png in Resources */,
+				29984F3116B2CB55004DFE27 /* quitutakeover.png in Resources */,
+				29984F3216B2CB55004DFE27 /* syncukontroll.png in Resources */,
+				29984F3416B2D011004DFE27 /* active-session.png in Resources */,
+				29984F3616B2D203004DFE27 /* sync.png in Resources */,
+				2940B3C516B2E08C005D636A /* ukontroll-icon.png in Resources */,
+				2940B3CA16B2E126005D636A /* ukontroll-icon.icns in Resources */,
+				2940B3CC16B2E12E005D636A /* ukontroll-icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29984EC516AD72E9004DFE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29984EDA16AD72E9004DFE27 /* main.m in Sources */,
+				29984EE116AD72E9004DFE27 /* AppDelegate.mm in Sources */,
+				29984EF216AD7972004DFE27 /* MainView.mm in Sources */,
+				29984F0716ADA2AD004DFE27 /* BindView.m in Sources */,
+				29984F2816B12D04004DFE27 /* ButtonBind.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29984ED616AD72E9004DFE27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29984ED716AD72E9004DFE27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29984EDC16AD72E9004DFE27 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29984EDD16AD72E9004DFE27 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		29984EE216AD72E9004DFE27 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29984EE316AD72E9004DFE27 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29984EE516AD72E9004DFE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		29984EE616AD72E9004DFE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		29984EE816AD72E9004DFE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "uTakeover/uTakeover-Prefix.pch";
+				INFOPLIST_FILE = "uTakeover/uTakeover-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29984EE916AD72E9004DFE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "uTakeover/uTakeover-Prefix.pch";
+				INFOPLIST_FILE = "uTakeover/uTakeover-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29984EC316AD72E9004DFE27 /* Build configuration list for PBXProject "uTakeover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29984EE516AD72E9004DFE27 /* Debug */,
+				29984EE616AD72E9004DFE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29984EE716AD72E9004DFE27 /* Build configuration list for PBXNativeTarget "uTakeover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29984EE816AD72E9004DFE27 /* Debug */,
+				29984EE916AD72E9004DFE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29984EC016AD72E9004DFE27 /* Project object */;
+}
