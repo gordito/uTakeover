@@ -19,4 +19,4 @@ Copyleft 2013 - Code by Gordito, Robin Kochauf. Design by Designministeriet, Ste
 
 
 This program is free - as in free beer! Do with it as you please.
-Copy it, sell it, imporove it, give it to your grandma.
+Copy it, sell it, improve it, give it to your grandma.
