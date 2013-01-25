@@ -15,9 +15,7 @@ http://ukontroll.com
 
 
 
-Copyleft 2013 
-Code - Gordito, Robin Kochauf
-Design - Designministeriet, Stefan Atterdal
+Copyleft 2013 - Code by Gordito, Robin Kochauf. Design by Designministeriet, Stefan Atterdal.
 
 
 This program is free - as in free beer! Do with it as you please.
